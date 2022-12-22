@@ -25,6 +25,14 @@ const userSchema = mongoose.Schema({
         type : String,
         require : true
     },
+    profile_pic : {
+        type : String,
+        require : true
+    },
+    gender : {
+        type : String,
+        require : true
+    },
 })
 userSchema.set('timestramp', true)
 
